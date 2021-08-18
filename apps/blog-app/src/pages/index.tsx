@@ -20,7 +20,7 @@ export default function Blog({ posts }: Props) {
         <ul>
           <li>{`Foo says: ${sayHello('World')} from @your-org/core-lib`}</li>
         </ul>
-        <h3>Here's the blog posts</h3>
+        <h3>Here's the blog posts - yep</h3>
         <ul>
           {posts.map(({ title, slug }) => (
             <article key={slug} className="prose lg:prose-xl">
