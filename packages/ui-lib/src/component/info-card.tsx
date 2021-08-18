@@ -12,6 +12,7 @@ export const InfoCard: FC<Props> = (props) => {
       <div className="container">
         <h4>
           <strong>John Doe</strong>
+          <span>I am Dom</span>
         </h4>
         <p>{originatingAppName}</p>
       </div>
