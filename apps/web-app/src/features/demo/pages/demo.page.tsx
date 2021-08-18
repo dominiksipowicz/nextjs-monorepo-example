@@ -27,7 +27,9 @@ export const DemoPage: React.FC<Props> = () => {
         <h3>I'm the web-app</h3>
         <ul>
           <InfoCard originatingAppName={'web-app'} />
-          <li>{`Foo says: ${sayHello('World')} from @your-org/core-lib`}</li>
+          <li>{`Foo lol says: ${sayHello(
+            'World'
+          )} from @your-org/core-lib`}</li>
           <li>
             <Message message={'Bar react component from @your-org/ui-lib'} />
           </li>
